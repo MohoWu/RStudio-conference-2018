@@ -62,6 +62,14 @@ Unlike input value it's not read-only.
     - `reactiveFileReader` reads file when the timestamp changes
     - `reactivePoll` reads data from other sources.
     
+## Q&A
+
+* reactive values can be put at the top level of the app.
+* `readReactiveFile` is a prime example to be put at the very top.
+* `memoise` package for handling slow calculation that takes a long time to avoid timeout limit on Shiny server 
+* [advanced-shiny](https://github.com/daattali/advanced-shiny)
+
+    
     
 
 
