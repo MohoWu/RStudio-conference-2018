@@ -3,13 +3,13 @@
 ## Keynote - To the Tidyverse and Beyond -- Dianne Cook
 
 * Visaul inference protocol cf. traditional statistical inference
-    - Porschach protocol: compare what the results look at in scrambled data
+    - Porschach protocol: get a sense of what null samples look at before looking at the true data.
     - Lineup protocol: put true data side-by-side with null plots to see if one can pick it out.
 * How to generate NULL samples?
     - Permutation: scrambles the order of data
-    - simulation
+    - simulation: bootstrap
 * Before any analysis, think about:
-    - what questions?
+    - what questions? Stating the null and alternative hypothesis
     - How variables can be mapped (i.e. `aes` in `ggplot2`)
     - NULL generating mechanism
     - Alternative design of the plot
@@ -21,7 +21,8 @@
 
 * Async programming solves the problem that Shiny can only run in one single R Sesssion
 * `promises` package to resue
-* wrap `future()` around slow functions and use `%...>%` to pass to functions that looks at the results (e.g. `View()`)
+* wrap `future()` around slow functions and use `%...>%` to pass to functions that fetches the results (e.g. `View()`)
+* [slides](https://www.dropbox.com/s/2gf6tfk1t345lyf/async-talk-slides.pdf) of the same topic from a difference conference (looks pretty much the same to me)
 
 ## Shiny test
 

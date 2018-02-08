@@ -93,16 +93,5 @@
 * Shiny app | Easily publish, host, and manage at scale | Web page on Apache web server
 * R Markdown Report | Create dynamic, self-serve reports | Email on demand or scheduled
 * Plumber API | Easily host multiple endpoints and output types | REST call
-* slides on (github)[https://github.com/nwstephens/r-admin-2018] 
-
-
-    
-    
-    
-
-
-
-
-    
-
+* slides on [github](https://github.com/nwstephens/r-admin-2018)
 

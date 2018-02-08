@@ -32,7 +32,7 @@ Unlike input value it's not read-only.
 
 * Effecive reactive programming video from 2016 RStudio Shiny conference
 * `invalidateLater(1000)` use _time_ as a reactive input
-* __`throttle()`__ & __`debounce()`__ control the execution frequency of reactive expression.
+* __`throttle()`__ & __`debounce()`__ control the execution interval of reactive expression. This is useful to avoid unnecessary rendering of faster input changes.
 
 
 # Day 2
@@ -64,8 +64,8 @@ Unlike input value it's not read-only.
     
 ## Q&A
 
-* reactive values can be put at the top level of the app.
-* `readReactiveFile` is a prime example to be put at the very top.
+* reactive values can be put at the top level of the app outside the `server()` function.
+* `readReactiveFile` is a prime example to be put outside `server()`.
 * `memoise` package for handling slow calculation that takes a long time to avoid timeout limit on Shiny server 
 * [advanced-shiny](https://github.com/daattali/advanced-shiny)
 
